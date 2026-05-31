@@ -8,7 +8,7 @@ from auth_utils import get_current_user, create_access_token
 
 router = APIRouter()
 
-RP_ID = "localhost"  # Change to your domain in prod e.g. "vault.yourdomain.com"
+RP_ID = "zerova-seven.vercel.app"  # Change to your domain in prod e.g. "vault.yourdomain.com"
 RP_NAME = "Personal Vault"
 CHALLENGE_TTL_SECONDS = 120
 
